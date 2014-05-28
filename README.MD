@@ -1,7 +1,6 @@
 Hidden Form Finder
 ==================
-  
-Find and Display all the hidden form fields and values on the current page.  
-Provides both console logging, and toolbar overlay options.  
-  
-by Joe Norton  
+
+By Joe Norton  
+
+Hidden Form Finder is a Chrome Browser extension, which shows all hidden form fields and values on the current page.
