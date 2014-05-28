@@ -1,0 +1,23 @@
+#hff_table {
+	border: 2px solid !important;
+	font: bold 14px verdana !important;
+	color:#8B4726 !important;
+	display:inline-table !important;
+	padding: 5px 5px 5px !important;
+	margin: 5px 5px 5px 5px !important;
+}
+#HFF_Toolbar {
+	font: bold 14px verdana !important;
+	color:#8B4726 !important;
+	display: visible;
+}
+.hff_hidden{
+	display: none !important;
+	height: 0px !important;
+	opacity: 0;
+}
+.hide {
+   position: absolute !important;
+   top: -9999px !important;
+   left: -9999px !important;
+}

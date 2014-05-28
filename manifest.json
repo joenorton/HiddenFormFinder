@@ -1,0 +1,22 @@
+{
+  "name": "Hidden Form Finder",
+  "short_name": "HFF",
+  "version": "0.1",
+  "description": "See all Hidden Fields on the Page! Both toolbar and console logging options.",
+  "icons": {"128": "128.png"},
+  "content_scripts": [
+    {
+      "matches": ["http://*/*","https://*/*"],
+      "css": ["hffstyles.css"],
+      "js": ["jquery.js", "hffmain.js"],
+      "run_at": "document_end"
+    }
+  ],
+      "options_page": "options.html",
+      "permissions":[
+        "storage",
+        "http://*/*",
+        "https://*/*"
+        ],
+  "manifest_version": 2
+}

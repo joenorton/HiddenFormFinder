@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head><title>Hidden Form Finder Options</title></head>
+<body>
+<style>
+	.button {
+    position: absolute:
+    top: 50%;
+}
+</style>
+<div id="main" style="margin-left: auto; margin-right: auto; color: #8B4726; width: 800px; border:thick solid #8B4726;
+border-radius:25px; font: 18px verdana;background: #C2E2FF;"><div id="header" style="vertical-align: top;height:100px;margin-top:0px;">
+<h1 style="text-align: center;">Hidden Form Finder Options<h1>
+</div><div id="body-wrapper" style="padding: 20px 20px 20px 20px;">
+<br />
+<h3>Show console logging?
+<select id="console-log">
+ <option value="yes" default>yes</option>
+ <option value="no">no</option>
+</select>
+</h3>
+<br />
+<h3>Show HFF toolbar?  
+<select id="hff-toolbar">
+ <option value="yes" default>yes</option>
+ <option value="no">no</option>
+</select>
+</h3>Timer on toolbar fadeout?
+<select id="toolbar_timer">
+ <option value="15 Seconds">15 Seconds</option>
+ <option value="30 Seconds">30 Seconds</option>
+  <option value="1 Minute">1 Minute</option>
+  <option value="No Timer" default>No Timer</option>
+</select>
+
+<div id="status"></div>
+<br /><br />
+</div>
+<div id="wrapper" style="text-align: center;">
+<button class="button" style="width: 100px; font: bold 25px verdana; margin-left: auto; margin-right: auto;" id="save">Save</button>
+</div>
+</div>
+<script src="options.js"></script>
+</body>
+</html>
